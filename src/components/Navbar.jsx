@@ -1,6 +1,5 @@
 import { useState, useEffect, use } from "react";
-const Icon = require('../assets/icon.png');
-
+import Icon from '../assets/icon.png'; 
 
 
 
