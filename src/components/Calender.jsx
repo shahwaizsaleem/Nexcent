@@ -1,5 +1,5 @@
 import React from "react";
-import pana from "../assets/pana.png";
+import pana from '../assets/pana.png';
 
 const Calender = () => {
   return (

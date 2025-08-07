@@ -1,7 +1,7 @@
 import React from 'react';
-import mc1 from "../assets/mc1.png";
-import mc2 from "../assets/mc2.png";
-import mc3 from "../assets/mc3.png";
+import mc1 from '../assets/mc1.png';
+import mc2 from '../assets/mc2.png';
+import mc3 from '../assets/mc3.png';
 
 const Communitymanagement = () => {
   return (

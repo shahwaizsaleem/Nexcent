@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "../assets/logo.png";
-import x from "../assets/x.png";
-import yt from "../assets/yt.png";
-import sports from "../assets/sports.png";
-import insta from "../assets/insta.png";
+import logo from '../assets/logo.png';
+import x from '../assets/x.png';
+import yt from '../assets/yt.png';
+import sports from '../assets/sports.png';
+import insta from '../assets/insta.png';
 const Footer = () => {
   return (
     <section className="footer-wrapper">
