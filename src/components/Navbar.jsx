@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import icon from "../assets/Icon.png";
+import Icon from "../assets/Icon.png";
 
 const LINKS = [
   { name: "Home", href: "#home" },
@@ -63,7 +63,7 @@ const Navbar = () => {
             alignItems: 'center'
           }}>
             <img 
-              src={icon}
+              src={Icon}
               alt="Nexcent Logo" 
               style={{
                 height: isMobile ? '2rem' : '2.5rem',
