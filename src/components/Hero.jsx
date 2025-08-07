@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/Hero.png";
+import hero from "../assets/hero.png";
 
 const Hero = () => {
   return (
@@ -63,15 +63,6 @@ const Hero = () => {
         .hero-button:hover {
           background-color: #218838;
           transform: scale(1.05);
-        }
-
-        .hero-image-container {
-          flex: 1 1 40%;
-          width: clamp(280px, 35vw, 391px);
-          height: clamp(290px, 36vw, 407px);
-          border-radius: 8px;
-          overflow: hidden;
-          margin-top: 2rem;
         }
 
         .hero-image-container img {
