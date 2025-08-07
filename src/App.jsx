@@ -1,7 +1,7 @@
 import React from "react"
 // import '@fontsource/inter/variable.css'; 
 import Navbar from "./components/Navbar";
-import Hero from "./components/HEro";
+import Hero from "./components/Hero";
 import OurClients from "./components/OurClients";
 import Communitymanagement from "./components/Communitymanagment"
 import Body from "./components/body";
