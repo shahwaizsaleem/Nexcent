@@ -40,6 +40,7 @@ export default function Body() {
           justify-content: space-between;
           gap: 32px;
           max-width: 661px;
+          text-align: justify;
         }
         .hero-title {
           font-size: 2.25rem;
@@ -77,7 +78,7 @@ export default function Body() {
           max-width: 1152px;
           margin: 0 auto;
           display: flex;
-          gap: 8rem;
+          gap: 6rem;
           flex-direction: row;
           align-items: flex-start;
         }

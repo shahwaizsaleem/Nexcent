@@ -29,7 +29,7 @@ const Reviews = () => {
         .reviews-cards {
           display: flex;
           flex-direction: column;
-          gap: 2rem;
+          gap: 3.5rem;
           align-items: center;
         }
 

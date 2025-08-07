@@ -37,6 +37,7 @@ const Tesla = () => {
         .tesla-content {
           display: flex;
           flex-direction: column;
+          text-align: justify;
           justify-content: space-between;
           gap: 1.5rem;
           max-width: 768px;

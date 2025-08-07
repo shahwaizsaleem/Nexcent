@@ -8,7 +8,7 @@ const Calender = () => {
         .calendar-section {
           background-color: white;
           padding: 4rem 1rem;
-          margin-top: -10rem;
+          margin-top: -12rem;
         }
 
         .calendar-container {
@@ -37,6 +37,7 @@ const Calender = () => {
           flex-direction: column;
           justify-content: space-between;
           gap: 2rem;
+          text-align: justify;
         }
 
         .calendar-title {

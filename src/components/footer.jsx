@@ -64,7 +64,7 @@ const Footer = () => {
           margin: 0 auto;
           display: flex;
           flex-wrap: wrap;
-          gap: 4rem;
+          gap: 8rem;
           justify-content: space-between;
         }
 
