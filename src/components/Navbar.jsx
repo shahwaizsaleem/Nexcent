@@ -1,5 +1,9 @@
-import { useState, useEffect } from "react";
-import Icon from '../assets/icon.png'; 
+import { useState, useEffect, use } from "react";
+const Icon = require('../assets/icon.png');
+
+
+
+
 const LINKS = [
   { name: "Home", href: "#home" },
   { name: "Service", href: "#services" },
