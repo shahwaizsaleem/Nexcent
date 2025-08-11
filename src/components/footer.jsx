@@ -1,9 +1,5 @@
 import React from "react";
-//import logo from '../assets/logo.png';
-//import x from '../assets/x.png';
-//import yt from '../assets/yt.png';
-//import sports from '../assets/sports.png';
-//import insta from '../assets/insta.png';
+
 const Footer = () => {
   return (
     <section className="footer-wrapper">
@@ -11,7 +7,6 @@ const Footer = () => {
         .footer-wrapper {
           width: 100%;
         }
-
         .footer-top {
           background-color: #f9fafb;
           padding: 2rem 1rem;
@@ -21,20 +16,17 @@ const Footer = () => {
           gap: 2rem;
           text-align: center;
         }
-
         .footer-top h1 {
           font-size: 2.25rem;
           font-weight: 700;
           color: #4D4D4D;
           line-height: 1.3;
         }
-
         @media (min-width: 768px) {
           .footer-top h1 {
             font-size: 3rem;
           }
         }
-
         .footer-top button {
           background-color: #059669;
           color: white;
@@ -48,17 +40,14 @@ const Footer = () => {
           gap: 0.5rem;
           transition: background-color 0.2s ease;
         }
-
         .footer-top button:hover {
           background-color: #047857;
         }
-
         .footer-main {
           background-color: #263238;
           color: white;
           padding: 4rem 1rem;
         }
-
         .footer-grid {
           max-width: 1200px;
           margin: 0 auto;
@@ -67,35 +56,28 @@ const Footer = () => {
           gap: 8rem;
           justify-content: space-between;
         }
-
         .footer-column {
           max-width: 250px;
           display: flex;
           flex-direction: column;
           gap: 1.5rem;
         }
-
         .footer-column p {
           color: #9ca3af;
           font-size: 0.875rem;
         }
-
         .footer-icons {
           display: flex;
           gap: 1rem;
         }
-
         .footer-icons img {
           width: 32px;
           height: 32px;
         }
-
         .footer-title {
           font-weight: 600;
           margin-bottom: 1rem;
-          
         }
-
         .footer-links {
           display: flex;
           flex-direction: column;
@@ -103,16 +85,13 @@ const Footer = () => {
           font-size: 0.875rem;
           color: #d1d5db;
         }
-
         .footer-links a {
           color: inherit;
           text-decoration: none;
         }
-
         .footer-links a:hover {
           text-decoration: underline;
         }
-
         .newsletter-box {
           display: flex;
           align-items: center;
@@ -121,7 +100,6 @@ const Footer = () => {
           padding: 0.5rem 1rem;
           max-width: 250px;
         }
-
         .newsletter-box input {
           flex: 1;
           background: transparent;
@@ -131,16 +109,13 @@ const Footer = () => {
           outline: none;
           padding: 0.25rem;
         }
-
         .newsletter-box input::placeholder {
           color: #9ca3af;
         }
-
         .newsletter-box img {
           width: 20px;
           height: 20px;
         }
-
         @media (max-width: 768px) {
           .footer-grid {
             flex-direction: column;
@@ -164,26 +139,26 @@ const Footer = () => {
         <div className="footer-grid">
           {/* Column 1 - Logo */}
           <div className="footer-column">
-            <img src="public/assets/logo.png" alt="Nexcent Logo" className="logo" />
+            <img src="/assets/logo.png" alt="Nexcent Logo" className="logo" />
             <p>
               Copyright © 2020 Nexcent ltd.
               <br />
               All rights reserved
             </p>
             <div className="footer-icons">
-  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-    <img src="public/assets/insta.png" alt="Instagram" />
-  </a>
-  <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">
-    <img src="public/assets/sports.png" alt="Dribbble" />
-  </a>
-  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-    <img src="public/assets/x.png" alt="Twitter" />
-  </a>
-  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-    <img src="public/assets/yt.png"alt="YouTube" />
-  </a>
-</div>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/insta.png" alt="Instagram" />
+              </a>
+              <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/sports.png" alt="Dribbble" />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/x.png" alt="Twitter" />
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/yt.png" alt="YouTube" />
+              </a>
+            </div>
           </div>
 
           {/* Column 2 - Company */}
@@ -212,13 +187,10 @@ const Footer = () => {
 
           {/* Column 4 - Newsletter */}
           <div>
-            <h3 className="footer-title">Stay up to date </h3>
+            <h3 className="footer-title">Stay up to date</h3>
             <div className="newsletter-box">
-              <input type="email" placeholder="Your email address" /><a href="#home">
-  <span>&#129141;</span>
-</a>
-
-              
+              <input type="email" placeholder="Your email address" />
+              <a href="#home"><span>&#129141;</span></a>
             </div>
           </div>
         </div>

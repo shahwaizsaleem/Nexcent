@@ -99,7 +99,7 @@ const Tesla = () => {
       <div className="tesla-container">
         {/* Image */}
         <div>
-          <img src="public/assets/tesla.png" alt="Tesla" className="tesla-img" />
+          <img src="/assets/tesla.png" alt="Tesla" className="tesla-img" />
         </div>
 
         {/* Content */}
@@ -120,11 +120,11 @@ const Tesla = () => {
           </div>
 
           <div className="tesla-logos">
-            <img src="public/assets/img1.png" alt="Logo1" />
-            <img src="public/assets/img2.png" alt="Logo2" />
-            <img src="public/assets/img3.png" alt="Logo3" />
-            <img src="public/assets/img4.png" alt="Logo4" />
-            <img src="public/assets/img5.png" alt="Logo5" />
+            <img src="/assets/img1.png" alt="Logo1" />
+            <img src="/assets/img2.png" alt="Logo2" />
+            <img src="/assets/img3.png" alt="Logo3" />
+            <img src="/assets/img4.png" alt="Logo4" />
+            <img src="/assets/img5.png" alt="Logo5" />
             <a href="#" className="cta-link">
               Meet all customers <span>&rarr;</span>
             </a>

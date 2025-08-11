@@ -94,7 +94,7 @@ const Calender = () => {
       <div className="calendar-container" id="Product">
         {/* Image */}
         <div>
-          <img src="public/assets/pana.png" alt="Mobile app design illustration" className="calendar-img" />
+          <img src="/assets/pana.png" alt="Mobile app design illustration" className="calendar-img" />
         </div>
 
         {/* Content */}

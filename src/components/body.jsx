@@ -163,7 +163,7 @@ export default function Body() {
       <section className="section" id="Features" >
         <div className="container">
           <div>
-            <img src="public/assets/rafiki.png" alt="Illustration" className="hero-img" />
+            <img src="/assets/rafiki.png" alt="Illustration" className="hero-img" />
           </div>
           <div className="hero-content">
             <div>
@@ -189,10 +189,10 @@ export default function Body() {
             <p className="stats-desc">We reached here with our hard work and dedication</p>
           </div>
           <div className="stats-grid">
-            {[{ img: "public/assets/b1.png", label: "Members", value: "2,245,341" },
-              { img: "public/assets/b2.png", label: "Clubs", value: "46,328" },
-              { img: "public/assets/b3.png", label: "Event Bookings", value: "828,867" },
-              { img: "public/assets/b4.png", label: "Payments", value: "1,926,436" }].map((stat, i) => (
+            {[{ img: "/assets/b1.png", label: "Members", value: "2,245,341" },
+              { img: "/assets/b2.png", label: "Clubs", value: "46,328" },
+              { img: "/assets/b3.png", label: "Event Bookings", value: "828,867" },
+              { img: "/assets/b4.png", label: "Payments", value: "1,926,436" }].map((stat, i) => (
               <div className="stat-item" key={i}>
                 <img src={stat.img} alt={stat.label} className="stat-img" />
                 <div>

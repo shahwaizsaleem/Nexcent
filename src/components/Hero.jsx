@@ -1,5 +1,4 @@
 import React from "react";
-//import hero1 from "../assets/Hero.png";
 
 const Hero = () => {
   return (
@@ -8,7 +7,6 @@ const Hero = () => {
         *, *::before, *::after {
           box-sizing: border-box;
         }
-
         .hero-section {
           position: relative;
           display: flex;
@@ -20,13 +18,11 @@ const Hero = () => {
           padding: 4rem 1.5rem;
           font-family: 'Inter', system-ui, sans-serif;
         }
-
         .hero-text {
           flex: 1 1 50%;
           max-width: 657px;
           padding-right: 2rem;
         }
-
         .hero-heading {
           font-size: clamp(2rem, 6vw, 4rem);
           font-weight: 600;
@@ -34,19 +30,16 @@ const Hero = () => {
           color: #4D4D4D;
           margin-bottom: 1rem;
         }
-
         .highlight {
           color: #28a745;
           font-weight: 600;
         }
-
         .hero-subtext {
           font-size: clamp(0.875rem, 2vw, 1rem);
           color: #666;
           margin-bottom: 2rem;
           line-height: 1.6;
         }
-
         .hero-button {
           width: clamp(180px, 25vw, 230px);
           height: 56px;
@@ -59,23 +52,19 @@ const Hero = () => {
           cursor: pointer;
           transition: background-color 0.3s ease, transform 0.2s ease;
         }
-
         .hero-button:hover {
           background-color: #218838;
           transform: scale(1.05);
         }
-
         .hero-image-container img {
           width: 100%;
           height: 100%;
           object-fit: cover;
           transition: transform 0.3s ease;
         }
-
         .hero-image-container:hover img {
           transform: scale(1.05);
         }
-
         @media (max-width: 1024px) {
           .hero-section {
             padding: 3rem 1rem;
@@ -84,7 +73,6 @@ const Hero = () => {
             padding-right: 1rem;
           }
         }
-
         @media (max-width: 768px) {
           .hero-section {
             flex-direction: column;
@@ -102,7 +90,6 @@ const Hero = () => {
             margin: 0 auto;
           }
         }
-
         @media (max-width: 480px) {
           .hero-section {
             padding: 1.5rem 1rem;
@@ -116,7 +103,6 @@ const Hero = () => {
             height: 250px;
           }
         }
-
         @media (max-width: 360px) {
           .hero-section {
             padding: 1rem 0.75rem;
@@ -140,7 +126,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-image-container">
-          <img src="public/assets/hero1.png" alt="Photographer showcasing work" />
+          <img src="/assets/hero1.png" alt="Photographer showcasing work" />
         </div>
       </section>
     </>
