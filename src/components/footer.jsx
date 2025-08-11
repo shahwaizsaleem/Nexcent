@@ -139,7 +139,7 @@ const Footer = () => {
         <div className="footer-grid">
           {/* Column 1 - Logo */}
           <div className="footer-column">
-            <img src="/assets/logo.png" alt="Nexcent Logo" className="logo" />
+            <img src="/assets/Logo.png" alt="Nexcent Logo" className="logo" />
             <p>
               Copyright © 2020 Nexcent ltd.
               <br />
