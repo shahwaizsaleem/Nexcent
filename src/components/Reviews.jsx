@@ -1,7 +1,7 @@
 import React from "react";
-import blog1 from '../assets/blog1.png';
-import blog2 from '../assets/blog2.png';
-import blog3 from '../assets/blog3.png';
+//import blog1 from '../assets/blog1.png';
+//import blog2 from '../assets/blog2.png';
+//import blog3 from '../assets/blog3.png';
 
 const Reviews = () => {
   return (
@@ -98,7 +98,7 @@ const Reviews = () => {
       <div className="reviews-cards">
         {/* Card 1 */}
         <div className="review-card">
-          <img src={blog1} alt="Blog 1" className="review-img" />
+          <img src="public/assets/blog1.png" alt="Blog 1" className="review-img" />
           <div className="review-box">
             <p className="review-text">
               Creating Streamlined Safeguarding Processes with OneRen
@@ -111,7 +111,7 @@ const Reviews = () => {
 
         {/* Card 2 */}
         <div className="review-card">
-          <img src={blog2} alt="Blog 2" className="review-img" />
+          <img src="public/assets/blog2.png" alt="Blog 2" className="review-img" />
           <div className="review-box">
             <p className="review-text">
               What are your safeguarding responsibilities and how can you manage them?
@@ -124,7 +124,7 @@ const Reviews = () => {
 
         {/* Card 3 */}
         <div className="review-card">
-          <img src={blog3} alt="Blog 3" className="review-img" />
+          <img src="public/assets/blog3.png" alt="Blog 3" className="review-img" />
           <div className="review-box">
             <p className="review-text">
               Creating Streamlined Safeguarding Processes with OneRen

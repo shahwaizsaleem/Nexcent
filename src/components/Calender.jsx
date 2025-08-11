@@ -1,5 +1,5 @@
 import React from "react";
-import pana from '../assets/pana.png';
+//import pana from '../assets/pana.png';
 
 const Calender = () => {
   return (
@@ -8,7 +8,7 @@ const Calender = () => {
         .calendar-section {
           background-color: white;
           padding: 4rem 1rem;
-          margin-top: -12rem;
+          margin-top: -3rem;
         }
 
         .calendar-container {
@@ -17,6 +17,7 @@ const Calender = () => {
           display: flex;
           gap: 2rem;
           align-items: flex-start;
+          
         }
 
         .calendar-img {
@@ -93,7 +94,7 @@ const Calender = () => {
       <div className="calendar-container" id="Product">
         {/* Image */}
         <div>
-          <img src={pana} alt="Mobile app design illustration" className="calendar-img" />
+          <img src="public/assets/pana.png" alt="Mobile app design illustration" className="calendar-img" />
         </div>
 
         {/* Content */}

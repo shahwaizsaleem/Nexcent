@@ -1,9 +1,9 @@
 import React from 'react';
-import b1 from '../assets/b1.png';
-import b2 from '../assets/b2.png';
-import b3 from '../assets/b3.png';
-import b4 from '../assets/b4.png';
-import rafiki from "../assets/rafiki.png";
+//import b1 from '../assets/b1.png';
+//import b2 from '../assets/b2.png';
+//import b3 from '../assets/b3.png';
+//import b4 from '../assets/b4.png';
+//import rafiki from "../assets/rafiki.png";
 
 export default function Body() {
   return (
@@ -73,6 +73,7 @@ export default function Body() {
         .stats-section {
           background-color: #f9fafb;
           padding: 4rem 1rem;
+          
         }
         .stats-container {
           max-width: 1152px;
@@ -81,12 +82,14 @@ export default function Body() {
           gap: 6rem;
           flex-direction: row;
           align-items: flex-start;
+          margin-top: -4rem;
         }
         .stats-text {
           max-width: 540px;
           display: flex;
           flex-direction: column;
           gap: 8px;
+          
         }
         .stats-heading {
           font-size: 1.875rem;
@@ -102,6 +105,7 @@ export default function Body() {
           color: #4b5563;
         }
         .stats-grid {
+        
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           gap: 2rem 4rem;
@@ -141,6 +145,7 @@ export default function Body() {
           }
           .stats-grid {
             grid-template-columns: 1fr;
+            margin-top: -4rem;
           }
         }
 
@@ -158,7 +163,7 @@ export default function Body() {
       <section className="section" id="Features" >
         <div className="container">
           <div>
-            <img src={rafiki} alt="Illustration" className="hero-img" />
+            <img src="public/assets/rafiki.png" alt="Illustration" className="hero-img" />
           </div>
           <div className="hero-content">
             <div>
@@ -184,10 +189,10 @@ export default function Body() {
             <p className="stats-desc">We reached here with our hard work and dedication</p>
           </div>
           <div className="stats-grid">
-            {[{ img: b1, label: "Members", value: "2,245,341" },
-              { img: b2, label: "Clubs", value: "46,328" },
-              { img: b3, label: "Event Bookings", value: "828,867" },
-              { img: b4, label: "Payments", value: "1,926,436" }].map((stat, i) => (
+            {[{ img: "public/assets/b1.png", label: "Members", value: "2,245,341" },
+              { img: "public/assets/b2.png", label: "Clubs", value: "46,328" },
+              { img: "public/assets/b3.png", label: "Event Bookings", value: "828,867" },
+              { img: "public/assets/b4.png", label: "Payments", value: "1,926,436" }].map((stat, i) => (
               <div className="stat-item" key={i}>
                 <img src={stat.img} alt={stat.label} className="stat-img" />
                 <div>

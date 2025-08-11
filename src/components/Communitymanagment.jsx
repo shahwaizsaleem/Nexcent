@@ -1,7 +1,7 @@
 import React from 'react';
-import mc1 from '../assets/mc1.png';
-import mc2 from '../assets/mc2.png';
-import mc3 from '../assets/mc3.png';
+//import mc1 from '../assets/mc1.png';
+//import mc2 from '../assets/mc2.png';
+//import mc3 from '../assets/mc3.png';
 
 const Communitymanagement = () => {
   return (
@@ -196,7 +196,7 @@ const Communitymanagement = () => {
           <div className="feature-item">
             <div className="icon-container">
               <img 
-                src={mc1}
+                src="public/assets/mc1.png"
                 alt="Membership icon"
                 className="feature-icon"
               />
@@ -216,7 +216,7 @@ const Communitymanagement = () => {
           <div className="feature-item">
             <div className="icon-container">
               <img 
-                src={mc2}
+                src="public/assets/mc2.png"
                 alt="National Association icon"
                 className="feature-icon"
               />
@@ -236,7 +236,7 @@ const Communitymanagement = () => {
           <div className="feature-item">
             <div className="icon-container">
               <img 
-                src={mc3}
+                src="public/assets/mc3.png"
                 alt="Clubs and Groups icon"
                 className="feature-icon"
               />

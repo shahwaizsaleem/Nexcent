@@ -1,9 +1,9 @@
 import React from "react";
-import logo from '../assets/logo.png';
-import x from '../assets/x.png';
-import yt from '../assets/yt.png';
-import sports from '../assets/sports.png';
-import insta from '../assets/insta.png';
+//import logo from '../assets/logo.png';
+//import x from '../assets/x.png';
+//import yt from '../assets/yt.png';
+//import sports from '../assets/sports.png';
+//import insta from '../assets/insta.png';
 const Footer = () => {
   return (
     <section className="footer-wrapper">
@@ -164,7 +164,7 @@ const Footer = () => {
         <div className="footer-grid">
           {/* Column 1 - Logo */}
           <div className="footer-column">
-            <img src={logo} alt="Nexcent Logo" className="logo" />
+            <img src="public/assets/logo.png" alt="Nexcent Logo" className="logo" />
             <p>
               Copyright © 2020 Nexcent ltd.
               <br />
@@ -172,16 +172,16 @@ const Footer = () => {
             </p>
             <div className="footer-icons">
   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-    <img src={insta} alt="Instagram" />
+    <img src="public/assets/insta.png" alt="Instagram" />
   </a>
   <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">
-    <img src={sports} alt="Dribbble" />
+    <img src="public/assets/sports.png" alt="Dribbble" />
   </a>
   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-    <img src={x} alt="Twitter" />
+    <img src="public/assets/x.png" alt="Twitter" />
   </a>
   <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-    <img src={yt} alt="YouTube" />
+    <img src="public/assets/yt.png"alt="YouTube" />
   </a>
 </div>
           </div>

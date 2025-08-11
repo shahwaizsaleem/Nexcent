@@ -1,11 +1,11 @@
 import React from "react";
-import img1 from '../assets/img1.png';
-import img2 from '../assets/img2.png';
-import img3 from '../assets/img3.png';
-import img4 from '../assets/img4.png';
-import img5 from '../assets/img5.png';
-import img6 from '../assets/img6.png';
-import img7 from '../assets/img7.png';
+//import img1 from '../assets/img1.png';
+//import img2 from '../assets/img2.png';
+//import img3 from '../assets/img3.png';
+//import img4 from '../assets/img4.png';
+//import img5 from '../assets/img5.png';
+//import img6 from '../assets/img6.png';
+//import img7 from '../assets/img7.png';
 
 const OurClients = () => {
   return (
@@ -124,13 +124,13 @@ const OurClients = () => {
       </div>
 
       <div className="logo-container">
-        <img src={img1} alt="client 1" className="logo-item" />
-        <img src={img2} alt="client 2" className="logo-item" />
-        <img src={img3} alt="client 3" className="logo-item" />
-        <img src={img4} alt="client 4" className="logo-item" />
-        <img src={img5} alt="client 5" className="logo-item" />
-        <img src={img6} alt="client 6" className="logo-item" />
-        <img src={img7} alt="client 7" className="logo-item" />
+        <img src="public/assets/img1.png" alt="client 1" className="logo-item" />
+        <img src="public/assets/img2.png" alt="client 2" className="logo-item" />
+        <img src="public/assets/img3.png" alt="client 3" className="logo-item" />
+        <img src="public/assets/img4.png" alt="client 4" className="logo-item" />
+        <img src="public/assets/img5.png" alt="client 5" className="logo-item" />
+        <img src="public/assets/img6.png" alt="client 6" className="logo-item" />
+        <img src="public/assets/img7.png" alt="client 7" className="logo-item" />
       </div>
     </section>
   );

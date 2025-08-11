@@ -1,11 +1,11 @@
 import React from "react";
-import tesla from '../assets/tesla.png';
-import img1 from '../assets/img1.png';
-import img2 from '../assets/img2.png';
-import img3 from '../assets/img3.png';
-import img4 from '../assets/img4.png';
-import img5 from '../assets/img5.png';
-import img6 from '../assets/img6.png';
+//import tesla from '../assets/tesla.png';
+//import img1 from '../assets/img1.png';
+//import img2 from '../assets/img2.png';
+//import img3 from '../assets/img3.png';
+//import img4 from '../assets/img4.png';
+//import img5 from '../assets/img5.png';
+//import img6 from '../assets/img6.png';
 
 const Tesla = () => {
   return (
@@ -99,7 +99,7 @@ const Tesla = () => {
       <div className="tesla-container">
         {/* Image */}
         <div>
-          <img src={tesla} alt="Tesla" className="tesla-img" />
+          <img src="public/assets/tesla.png" alt="Tesla" className="tesla-img" />
         </div>
 
         {/* Content */}
@@ -120,11 +120,11 @@ const Tesla = () => {
           </div>
 
           <div className="tesla-logos">
-            <img src={img1} alt="Logo1" />
-            <img src={img2} alt="Logo2" />
-            <img src={img3} alt="Logo3" />
-            <img src={img4} alt="Logo4" />
-            <img src={img5} alt="Logo5" />
+            <img src="public/assets/img1.png" alt="Logo1" />
+            <img src="public/assets/img2.png" alt="Logo2" />
+            <img src="public/assets/img3.png" alt="Logo3" />
+            <img src="public/assets/img4.png" alt="Logo4" />
+            <img src="public/assets/img5.png" alt="Logo5" />
             <a href="#" className="cta-link">
               Meet all customers <span>&rarr;</span>
             </a>
