@@ -98,7 +98,7 @@ const Hero = () => {
             height: 48px;
           }
           .hero-image-container {
-            width: 100%;
+          
             max-width: 300px;
             height: 250px;
           }
